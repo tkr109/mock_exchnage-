@@ -1,0 +1,85 @@
+/* Center the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7fafc; /* Light gray background */
+  }
+  
+  /* Style the form */
+  .login-form {
+    background-color: #ffffff; /* White background */
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Form header */
+  .login-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #2d3748; /* Dark gray text */
+  }
+  
+  /* Error message */
+  .error-message {
+    color: #e53e3e; /* Red for error text */
+    font-size: 0.875rem; /* Small text */
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* Form labels */
+  .login-label {
+    display: block;
+    font-size: 0.875rem; /* Small text */
+    color: #4a5568; /* Gray text */
+    margin-bottom: 8px;
+  }
+  
+  /* Form inputs */
+  .login-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #2d3748; /* Dark gray text */
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .login-input:focus {
+    outline: none;
+    border-color: #4299e1; /* Blue border on focus */
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3); /* Blue glow */
+  }
+  
+  /* Submit button */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3182ce; /* Blue background */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .login-button:hover {
+    background-color: #2b6cb0; /* Darker blue on hover */
+  }
+  
+  .login-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.3); /* Blue glow */
+  }
+  
